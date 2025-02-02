@@ -124,5 +124,5 @@ LABEL \
       org.label-schema.name="mkvtoolnix_api" \
       org.label-schema.description="Docker container for MKVToolNix with API" \
       org.label-schema.version="${DOCKER_IMAGE_VERSION:-unknown}" \
-      org.label-schema.vcs-url="https://github.com/jlesage/docker-mkvtoolnix" \
+      org.label-schema.vcs-url="https://github.com/sneak2k/docker-mkvtoolnix" \
       org.label-schema.schema-version="1.0"
