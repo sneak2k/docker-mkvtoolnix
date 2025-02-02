@@ -5,7 +5,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DOCKER_IMAGE_NAME: jlesage/mkvtoolnix
+  DOCKER_IMAGE_NAME: sneak2k/mkvtoolnix
   PLATFORMS: linux/amd64,linux/386,linux/arm/v6,linux/arm/v7,linux/arm64/v8
 
 on:
@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Free disk space
-        uses: jlumbroso/free-disk-space@main
+        uses: sneak2k/free-disk-space@main
         with:
           tool-cache: true
           android: true
