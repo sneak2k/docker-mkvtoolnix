@@ -77,6 +77,14 @@ RUN add-pkg \
         # mesa-gl dependency is not automatically pulled with some architectures
         # (e.g. arm64).
         mesa-gl \
+        curl \
+        jq \
+        build-essential \
+        python3 \ 
+        python3-dev \
+        python3-pip \ 
+        python3-flask \ 
+        python3-requests \
         && \
     # Remove unused plugins that cause the following log message:
     #   Plugin uses incompatible Qt library (6.6.0) [release]
