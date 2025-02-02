@@ -1,8 +1,8 @@
 #
 # mkvtoolnix Dockerfile
 #
-# https://github.com/jlesage/docker-mkvtoolnix
-#
+# Original : https://github.com/jlesage/docker-mkvtoolnix
+# https://github.com/sneak2k/docker-mkvtoolnix
 
 # Docker image version is provided via build arg.
 ARG DOCKER_IMAGE_VERSION=
@@ -121,8 +121,8 @@ VOLUME ["/storage"]
 
 # Metadata.
 LABEL \
-      org.label-schema.name="mkvtoolnix" \
-      org.label-schema.description="Docker container for MKVToolNix" \
+      org.label-schema.name="mkvtoolnix_api" \
+      org.label-schema.description="Docker container for MKVToolNix with API" \
       org.label-schema.version="${DOCKER_IMAGE_VERSION:-unknown}" \
       org.label-schema.vcs-url="https://github.com/jlesage/docker-mkvtoolnix" \
       org.label-schema.schema-version="1.0"
